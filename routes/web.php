@@ -47,3 +47,9 @@ Route::get("/gallery/cat", function () {
 Route::get('/bootstrap-example', function () {
     return view('bootstrap-example');
 });
+
+
+
+Route::get('/about-me', function () {
+    return view('about-me');
+});
