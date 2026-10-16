@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
 <head>
+    <meta charset="UTF-8">
     <title>Gallery</title>
 </head>
 <body>
-    <h1>Hero Gallery</h1>
+    <a href="/about-me">← กลับหน้า About Me</a>
 
-    <a href="/gallery/ant"><img src="{{ $ant }}" width="200" /></a>
-    <a href="/gallery/bird"><img src="{{ $bird }}" width="200" /></a>
-    <a href="/gallery/cat"><img src="{{ $cat }}" width="200" /></a>
-    <img src="{{ $god }}" width="200" />
-    <img src="{{ $spider }}" width="200" />
+    <h2>นาวี</h2>
+
+    Ant <img src="{{ $ant }}" height="135" />
+    Bird <img src="{{ $bird }}" height="135" />
+    Cat <img src="{{ $cat }}" height="135" />
+    God <img src="{{ $god }}" height="135" />
+    Spider <img src="{{ $spider }}" height="135" />
 </body>
 </html>
